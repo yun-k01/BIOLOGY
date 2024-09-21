@@ -50,7 +50,7 @@ myfit2 = lm(mean.ICSbirds~Q3sup$dominance_score)
 summary(myfit2)
 myfit3 = lm(mean.ICSbirds~Q3sup$weight)
 summary(myfit3)
-# in performing a linear regression, we make the following assumptions: that teh beak size nad the impact score have a linear 
-  # relationship, and teh vectors of both have a normal distribution
-# from the linear regression we are able to determine that there is a realtionship between the impact score and the beak size
+# in performing a linear regression, we make the following assumptions: that the beak size and the impact score have a linear 
+  # relationship, and the vectors of both have a normal distribution
+# from the linear regression we are able to determine that there is a relationship between the impact score and the beak size
   
